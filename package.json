@@ -1,7 +1,7 @@
 {
-  "name": "common-tools",
-  "version": "0.0.1",
-  "description": "",
+  "name": "@ok-ok/js-tools",
+  "version": "0.0.2",
+  "description": "公共方法库",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist --presets @babel/preset-env"
@@ -14,6 +14,20 @@
     "@babel/preset-env": "^7.18.9"
   },
   "files": [
-    "dist/"
-  ]
+    "dist/",
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OK-OK/js-tools.git"
+  },
+  "keywords": [
+    "utils",
+    "tools"
+  ],
+  "bugs": {
+    "url": "https://github.com/OK-OK/js-tools/issues"
+  },
+  "homepage": "https://github.com/OK-OK/js-tools#readme",
+  "dependencies": {}
 }
